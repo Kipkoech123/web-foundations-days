@@ -1,0 +1,7 @@
+# Day 8 Reflection
+
+**The most difficult concept.** For me it was concurrency: the idea that two people can do something at the same moment and both be told "yes". At first, transactions and constraints were just database words. What helped was turning them into a picture. I imagined two people reaching for the last concert ticket at one box office window. The database is the clerk who can only place the "reserved" card on a seat that has no card yet, and a constraint is a rule the clerk is never allowed to break. Writing the Ann-and-Ben timeline in my TicketHub design, one step at a time, forced me to understand it properly instead of just memorising the words.
+
+**What I would improve in my capstone.** Based on the feedback I received on my QuickNotes system design, the part I would improve most is how I justify my choices. I explained what I built, but I did not always show why, with numbers and with the trade-offs. In TicketHub I tried to fix this by estimating traffic first, so every decision (cache, waiting room, one primary database) points back to a number. I would go back and do the same for QuickNotes: estimate the load, name at least two trade-offs, and say what I gave up.
+
+**What I will learn next.** I want to keep strengthening my JavaScript and then build a small real backend with Node and a SQL database. My first goal is to code the seat-hold query from this design myself and watch a double-booking attempt fail for real. After that I will learn testing and deployment, so my projects run on the internet and not only on my laptop.
